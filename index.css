@@ -541,43 +541,6 @@ footer p {
   line-height: 1.6;
 }
 
-.footer-links {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.footer-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 7px 11px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.03);
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.footer-link:hover {
-  transform: translateY(-2px);
-  border-color: rgba(140, 255, 66, 0.32);
-  box-shadow: 0 12px 26px rgba(140, 255, 66, 0.08);
-}
-
-.footer-link img {
-  width: 14px;
-  height: 14px;
-  object-fit: contain;
-}
-
-.footer-link span {
-  color: var(--text);
-  font-weight: 400;
-  font-size: 0.84rem;
-}
-
 .site-toast {
   position: fixed;
   right: 24px;
